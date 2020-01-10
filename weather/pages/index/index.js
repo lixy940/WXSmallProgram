@@ -8,7 +8,9 @@ Page({
     region: ["重庆市","重庆市","荣昌区"],
     now:{
       cond_code:999
-    }
+    },
+    date:"",
+    nickName:""
   },
   changeRegion: function (e) {
     console.log(e.detail);
@@ -37,14 +39,23 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-      this.getWeather();
+    this.setData({
+      nickName: JSON.parse(options.nickName)
+    })
+    this.getWeather();
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    let date = new Date();
+    let year = date.getFullYear();
+    let month = date.getMonth() + 1;
+    let day = date.getDate();
+    this.setData({
+      date: year + '年' + month + '月' + day + '日'
+    })
   },
 
   /**

@@ -1,4 +1,3 @@
-
 <view class="container">
   <!-- 区域1：地区选择器 -->
   <picker mode="region" bindchange="changeRegion">
@@ -16,9 +15,9 @@
       <view class="box">能见度</view>
     </view>
     <view class="bar">
-      <view class="box">{{now.hum}} %</view>
-      <view class="box">{{now.pres}} hPa</view>
-      <view class="box">{{now.vis}} Km</view>
+      <view class="box2">{{now.hum}} %</view>
+      <view class="box2">{{now.pres}} hPa</view>
+      <view class="box2">{{now.vis}} Km</view>
     </view>
     <view class="bar">
       <view class="box">风向</view>
@@ -26,9 +25,16 @@
       <view class="box">风力</view>
     </view>
     <view class="bar">
-      <view class="box">{{now.wind_dir}}</view>
-      <view class="box">{{now.wind_spd}} Km/h</view>
-      <view class="box">{{now.wind_sc}} 级</view>    
+      <view class="box2">{{now.wind_dir}}</view>
+      <view class="box2">{{now.wind_spd}} Km/h</view>
+      <view class="box2">{{now.wind_sc}} 级</view>    
+    </view>
+    <view class="greet">
+      <view>今天，{{date}}</view>
+      <view>{{nickName}}，又是新的一天，记得要笑哟</view>
+    </view>
+    <view class="bar">
+     <image src="/images/bg.png" class="bg"></image>
     </view>
   </view>
 </view>

@@ -1,3 +1,4 @@
+
 .container{
   height: 100vh;
   display: flex;
@@ -21,6 +22,12 @@
   width: 33.3%;
   text-align: center
 }
+.box2{
+  width: 33.3%;
+  text-align: center;
+  color: #66CDAA
+}
+
 text{
   font-size: 80rpx;
   color: #3C5F81;
@@ -30,4 +37,19 @@ text{
   font-size: 30rpx;
   color: blue;
   margin: 20rpx 0;
+}
+
+.greet{
+  text-align: center;
+  color: #ff00cc;
+  font-size: 32rpx;
+  margin-top: 40rpx;
+}
+
+.bg{
+  width: 100%;
+  height:23vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
