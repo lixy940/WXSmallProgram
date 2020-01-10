@@ -6,5 +6,6 @@
     "navigationBarBackgroundColor": "#663399",
     "navigationBarTitleText": "头像获取展示首页",
     "backgroundTextStyle": "light"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
