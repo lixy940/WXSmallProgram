@@ -2,7 +2,7 @@
   "pages": [
     "pages/login/login",
     "pages/index/index",
-    "pages/vedio/vedio"
+    "pages/video/video"
   ],
   "window": {
     "navigationBarBackgroundColor": "#3883fa",
@@ -11,5 +11,6 @@
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": false
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

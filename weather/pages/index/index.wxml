@@ -1,8 +1,9 @@
 <view class="container">
   <!-- 区域1：地区选择器 -->
-  <picker mode="region" bindchange="changeRegion">
+  <picker mode="region" bindchange="changeRegion" >
     <view class="rBar">{{region}}</view>
   </picker>
+  <label class="rBar" bindtap="jumpVideo">>>猫史视频</label>
   <!-- 区域2 文本展示 -->
   <text>{{now.tmp}}℃ {{now.cond_txt}}</text>
   <!-- 区域3 图片展示 -->

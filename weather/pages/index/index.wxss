@@ -34,9 +34,17 @@ text{
 }
 
 .rBar{
+  display: flex;
+  flex-direction: row;
   font-size: 30rpx;
   color: blue;
   margin: 20rpx 0;
+}
+.tip{
+  display: flex;
+  flex-direction: row;
+  font-size: 35rpx;
+  color: blue;
 }
 
 .greet{
