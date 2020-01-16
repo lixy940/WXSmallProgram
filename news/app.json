@@ -1,0 +1,56 @@
+{
+  "pages": [
+      "pages/audio/audio",
+    "pages/login/login",
+    "pages/my/my",
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/weather/weather",
+    "pages/video/video"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#328EEB",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "我的新闻网",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#328EEB",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "images/index1.jpg",
+        "selectedIconPath": "images/index2.jpg"
+      },
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "天气",
+        "iconPath": "images/weather2.jpg",
+        "selectedIconPath": "images/weather1.jpg"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频",
+        "iconPath": "images/video1.jpg",
+        "selectedIconPath": "images/video2.jpg"
+      },
+      {
+        "pagePath": "pages/audio/audio",
+        "text": "音乐",
+        "iconPath": "images/audio0.jpg",
+        "selectedIconPath": "images/audio1.jpg"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的收藏",
+        "iconPath": "images/collection1.jpg",
+        "selectedIconPath": "images/collection2.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

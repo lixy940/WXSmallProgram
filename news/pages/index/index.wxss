@@ -1,0 +1,20 @@
+/* pages/index/index.wxss */
+swiper{
+  height: 400rpx;
+  width: 100%;
+}
+
+swiper image{
+  height: 100%;
+  width: 100%
+}
+
+
+.box{
+   display: flex;
+  flex-direction: column; 
+}
+
+.label{
+  margin-left: 300rpx;
+}

@@ -1,0 +1,22 @@
+.news-list{
+  min-height: 600rpx;
+  padding: 15rpx;
+}
+
+.news-item{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx solid black;
+}
+
+.news-item image{
+  height: 180rpx;
+  width: 180rpx;
+  margin: 10rpx;
+}
+
+.news-item text{
+  width: 100%;
+  line-height: 50rpx;
+  font-size: 35rpx;
+}

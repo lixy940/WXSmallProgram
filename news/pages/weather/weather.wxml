@@ -1,0 +1,41 @@
+<view class="container">
+  <!-- 区域1：地区选择器 -->
+  <picker mode="region" bindchange="changeRegion" >
+    <view class="rBar">{{region}}</view>
+  </picker>
+  <!-- <label class="rBar" bindtap="jumpVideo">>>猫史视频</label> -->
+  <!-- 区域2 文本展示 -->
+  <text>{{now.tmp}}℃ {{now.cond_txt}}</text>
+  <!-- 区域3 图片展示 -->
+  <image src="/images/{{now.cond_code}}.png"></image>
+  <!-- 区域4  -->
+  <view class="detail">
+    <view class="bar">
+      <view class="box">湿度</view>
+      <view class="box">气压</view>
+      <view class="box">能见度</view>
+    </view>
+    <view class="bar">
+      <view class="box2">{{now.hum}} %</view>
+      <view class="box2">{{now.pres}} hPa</view>
+      <view class="box2">{{now.vis}} Km</view>
+    </view>
+    <view class="bar">
+      <view class="box">风向</view>
+      <view class="box">风速</view>
+      <view class="box">风力</view>
+    </view>
+    <view class="bar">
+      <view class="box2">{{now.wind_dir}}</view>
+      <view class="box2">{{now.wind_spd}} Km/h</view>
+      <view class="box2">{{now.wind_sc}} 级</view>    
+    </view>
+    <view class="greet">
+      <view>今天，{{date}}</view>
+      <view>{{nickName}}，又是新的一天，记得要笑哟</view>
+    </view>
+    <view class="bar">
+     <image src="/images/bg.png" class="bg"></image>
+    </view>
+  </view>
+</view>

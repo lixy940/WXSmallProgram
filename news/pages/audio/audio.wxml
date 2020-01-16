@@ -1,0 +1,64 @@
+
+<view class="container">
+  <!-- 歌名和演唱者 -->
+  <view class="header">
+    <view>歌名：{{name}}</view>
+    <view class="author">演唱者：{{author}}</view>
+  </view>
+  <!-- 歌词部分，可滚动 -->
+  <scroll-view class="middle" scroll-y="true">
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>歌词放置处</view>
+    <view>末尾</view>
+
+  </scroll-view>
+
+  <!-- 底部进度条 -->
+  <view class="footer">
+
+    <view class="progress-bar">
+      <view>{{currentTime}}</view>
+      <view class="progress-line">
+        <view class="progress-bg"></view>
+        <view class="progress-red" style="width:{{tt}}%"></view>
+        <view class="progress-dot">
+          <icon class="iconfont icon-yuandian"></icon>
+        </view>
+      </view>
+      <view>{{duration}}</view>
+    </view>
+
+  </view>
+
+  <!-- 操作按钮 -->
+  <view class="btn-group">
+    <view class="prev" >
+      <icon class="iconfont icon-shangyishou"></icon>
+    </view>
+    <view class="play">
+      <icon class="iconfont {{tip}}" bindtap="changeState"></icon>
+    </view>
+    <view class="next">
+      <icon class="iconfont icon-xiayishou"></icon>
+    </view>
+  </view>
+</view>
+
+
